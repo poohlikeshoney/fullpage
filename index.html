@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LoremCamera</title>
+  <!-- fav icon -->
+  <link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png">
+  <!-- open graph -->
+  <meta property="og:title" content="LoremCamera" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.loremcamera.com/" />
+  <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
+  <meta property="og:description" content="portfolio for photography" />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+  <!-- Main Page FullPage -->
+  <script src="js/jquery.fullpage.js"></script>
+  <link rel="stylesheet" href="css/jquery.fullpage.css">
+  <!-- Main Page Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- custom -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <aside class="fixed-nav">
+    <a href="#firstPage"></a>
+    <a href="#secondPage"></a>
+    <a href="#thirdPage"></a>
+    <a href="#forthPage"></a>
+    <a href="#lastPage"></a>
+  </aside>
+  <header class="header">
+    <nav class="fixed">
+      <a href="#"><h1 class="logo">Logo</h1></a>
+      <ul class="main-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+  <!-- toggle menu -->
+  <div class="toggle-menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="video.html">Video</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="close"><i class="fas fa-times"></i></div>
+  </div>
+  <div id="fullpage">
+    <div class="section" data-anchor="firstPage">
+      <div class="bgBox">
+        <div class="container first">
+          <div class="slogan">
+            <h1>FANTASTIC FORESTS</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="buttons">
+              <button type="button" class="btn"><a href="#">view more</a></button>
+            </div>
+            <!-- <a href="" class="big btn yellow">view more<i class="fas fa-long-arrow-alt-right"></i></a> -->
+          </div>
+        </div>  
+      </div>
+    </div><!--//header-->
+    <div class="section story" data-anchor="secondPage">
+      <div class="contents">
+        <h2 class="title_bar center">NATURE STORY</h2>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        <div class="buttons">
+          <button type="button" class="btn"><a href="#">view more</a></button>
+        </div>
+        </div>
+      <div class="scroll_down">
+        <span class="arrow_down"><i class="fas fa-long-arrow-alt-down"></i></span>
+      </div>
+    </div><!--//sotry-->
+    <div class="section landscape" data-anchor="thirdPage">
+      <div class="container">
+        <div class="contents">
+          <h2 class="section_tt title_bar left">BEAUTIFUL LANDSCAPE</h2>
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <div class="buttons">
+            <button type="button" class="btn"><a href="#">view more</a></button>
+          </div>
+        </div>
+      </div>
+    </div><!--//landscape-->
+    <div class="section sea" data-anchor="forthPage">
+      <div class="container">
+        <div class="contents">
+          <h2 class="section_tt title_bar right">AMAZING SEA</h2>
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <div class="buttons">
+            <button type="button" class="btn"><a href="#">view more</a></button>
+          </div>
+        </div>
+      </div>
+    </div><!--//sea-->
+    <div class="section river" data-anchor="lastPage">
+      <div class="container">
+        <div class="contents">
+          <h2 class="section_tt title_bar left">MOUNTAIN RIVER</h2>
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <div class="buttons">
+            <button type="button" class="btn"><a href="#">view more</a></button>
+          </div>
+        </div>
+      </div>
+    </div><!--//river-->
+    <div class="section fp-auto-height footer">
+      <a href="" class="footer_logo">
+        <h1>LOGO</h1>
+      </a>
+      <p class="copyright">&copy; 2021 LoremCamera. All Right Reserved.</p>
+      <div class="flexBox">
+      <ul class="footer_menu">
+        <li><a href="">menu01</a></li>
+        <li><a href="">menu02</a></li>
+        <li><a href="">menu03</a></li>
+        <li><a href="">menu04</a></li>
+        <li><a href="">menu05</a></li>
+      </ul>
+      <ul class="social_menu">
+        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+        <li><a href=""><i class="fab fa-behance"></i></a></li>
+      </ul>
+      </div>
+    </div><!-- //footer -->
+  </div>
+  <a href="#firstPage" class="back_to_top">
+    <span class="arrow_up"><i class="fas fa-long-arrow-alt-up"></i></span>
+  </a>
+</body>
+
+</html>
