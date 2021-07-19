@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work - LoremCamera</title>
+  <!-- fav icon -->
+  <!-- open graph -->
+  <meta property="og:title" content="LoremCamera" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.loremcamera.com/" />
+  <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
+  <meta property="og:description" content="portfolio for photography" />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <!-- custom -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header subpage">
+    <nav>
+      <a href="#"><h1 class="logo">Logo</h1></a>
+      <ul class="main-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+  <!-- toggle menu -->
+  <div class="toggle-menu">
+    <ul class="main-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="video.html">Video</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="close"><i class="fas fa-times"></i></div>
+  </div>
+  <div class="subpage-banner" style="background-image: url(images/forest03.jpg); ">
+    <div class="contents">
+      <h2 class="title_bar center">CONTACT</h2>
+      <p>Contact Page</p>
+    </div>
+  </div>
+  <div class="main-contents">
+    <div class="contact-contents">
+      <div class="form">
+        <form action="">
+          <h2 class="title_bar left">Get In Touch</h2>
+          <p class="field">
+            <label for="userName">Your Name</label>
+            <input type="text" id="userName" placeholder="Your Name">
+          </p>
+          <p class="field">
+            <label for="userEmail">Your Email</label>
+            <input type="email" id="userEmail" placeholder="Your Email">
+          </p>
+          <p class="field">
+            <label for="userMsg">Message</label>
+            <textarea name="userMsg" id="userMsg" cols="30" rows="10" placeholder="Message"></textarea>
+          </p>
+          <p class="submit">
+            <input type="submit" value="SUBMIT" class="yellow_btn submit_btn">
+          </p>
+        </form>
+      </div>
+      <div class="map" id="map"></div><!-- map API script -->
+    </div>
+  </div>
+  <!-- footer -->
+  <div class="section fp-auto-height footer">
+      <a href="" class="footer_logo">
+        <h1>LOGO</h1>
+      </a>
+      <p class="copyright">&copy; 2021 LoremCamera. All Right Reserved.</p>
+      <div class="flexBox">
+        <ul class="footer_menu">
+          <li><a href="">menu01</a></li>
+          <li><a href="">menu02</a></li>
+          <li><a href="">menu03</a></li>
+          <li><a href="">menu04</a></li>
+          <li><a href="">menu05</a></li>
+        </ul>
+        <ul class="social_menu">
+          <li><a href=""><i class="fab fa-instagram"></i></a></li>
+          <li><a href=""><i class="fab fa-twitter"></i></a></li>
+          <li><a href=""><i class="fab fa-behance"></i></a></li>
+        </ul>
+      </div>
+  </div><!-- //footer -->
+  <a href="#" class="back_to_top about_btt">
+    <span class="arrow_up"><i class="fas fa-long-arrow-alt-up"></i></span>
+  </a>
+ <!-- kakao map -->
+ <script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=b296cd0cf311728cffd84bd444e6c897"></script>
+ <script src="js/contact.js"></script>
+</body>
+</html>
